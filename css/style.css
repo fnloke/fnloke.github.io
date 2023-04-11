@@ -1,0 +1,225 @@
+/* Anfang: Globales Styling */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    font-family: 'Poppins', Arial;
+    height: 100vh;
+}
+
+a:hover {
+    color: grey;
+}
+
+a:active {
+    color: black;
+}
+
+#global-header {
+    margin: 1rem 1rem 0 1rem;
+}
+
+#global-header > a {
+    font-size: 0.8rem;
+}
+
+#global-logo {
+    margin: 0 0.5rem 0 0;
+    width: 2.5rem;
+}
+
+#global-logo-phone {
+    margin: 0 0.5rem 0 0;
+    width: 2rem;
+}
+
+#global-header-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 900px) {
+    #global-header-flex {
+        flex-direction: column;
+    }
+}
+
+#global-nav-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 0.5rem 0;
+    gap: 2rem;
+}
+
+.global-nav-item {
+    text-align: center;
+}
+
+#global-div-container {
+    min-height: 100vh;
+}
+
+#global-div-main {
+    overflow: auto;
+    padding-bottom: 2rem;
+}
+
+#global-footer {
+    position: relative;
+    height: 1rem;
+    margin-top: -1rem;
+    clear: both;
+    height: 1.8rem;
+}
+
+#global-div-content {
+    margin: 2rem 0 0 0;
+}
+
+#global-div-content-prelude {
+    text-align: center;
+    margin: 0 20vw 0 20vw;
+}
+
+#global-div-content-prelude > p {
+    font-size: 0.8rem;
+}
+
+#global-div-content-body {
+    margin: 2rem 20vw 0 20vw;
+    text-align: justify;
+    text-justify: auto;
+}
+
+#global-div-legalContainer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    gap: 1rem;
+    margin-right: 1rem;
+    font-size: 0.8rem;
+}
+
+
+@media screen and (max-width: 900px) {
+    #global-div-content-prelude {
+        text-align: center;
+        margin: 0 5.5vw 0 5.5vw;
+    }
+    
+    #global-div-content-prelude > h2 {
+        font-size: 1.5rem;
+    }
+
+    #global-div-content-prelude > p {
+        font-size: 0.8rem;
+    }
+
+    #global-div-content-body {
+        margin: 2rem 5.5vw 0 5.5vw;
+    }
+}
+/* Ende: Globales Styling */
+
+
+/* Anfang: Index Styling */
+#index-div-backgroundImage {
+    height: 20rem;
+    background-image: url(/bilder/index-background2.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+/* Ende: Index Styling */
+
+
+/* Anfang: leistungen Styling */
+#services-div-backgroundImage {
+    height: 20rem;
+    background-image: url(/bilder/leistungen-background.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+/* Ende: leistungen Styling */
+
+
+/* Anfang: datenschutz Styling */
+#datenschutz-div-backgroundImage {
+    height: 20rem;
+    background-image: url(/bilder/datenschutz-background.jpg);
+    background-size: cover;
+    background-position: 50% 47%;
+}
+
+#datenschutz-header {
+    margin: 1rem;
+    text-align: center;
+    font-family: 'Poppins', Arial;
+}
+
+#datenschutz-div-content-body > p {
+    font-family: 'Poppins', Arial;
+    margin: 1rem 20vw 0 20vw;
+}
+
+@media screen and (max-width: 900px) {
+    #datenschutz-div-content-body > p {
+        margin: 1rem 5.5vw 0 5.5vw;
+    }
+
+    #datenschutz-header {
+        font-size: 1.85rem;
+    }
+}
+/* Ende: datenschutz Styling */
+
+
+/* Anfang: impressum Styling */
+#impressum-div-backgroundImage {
+    height: 20rem;
+    background-image: url(/bilder/impressum-background.jpg);
+    background-size: cover;
+    background-position: 50% 32%;
+}
+
+#impressum-header {
+    text-align: center;
+    font-family: 'Poppins', Arial;
+}
+
+#impressum-div-content-body > p {
+    font-family: 'Poppins', Arial;
+    margin: 1rem 20vw 0 20vw;
+}
+
+#impressum-div-content-body > p > a {
+    color: blue;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 900px) {
+    #impressum-div-content-body > p {
+        margin: 1rem 5.5vw 0 5.5vw;
+    }
+
+    #impressum-header {
+        font-size: 1.85rem;
+    }
+}
+/* Ende: impressum Styling */
+
+/* Anfang: ueber_uns Styling */
+#ueberUns-div-backgroundImage {
+    height: 20rem;
+    background-image: url(/bilder/ueberUns-background.jpg);
+    background-size: cover;
+    background-position: 50% 80%;
+}
+/* Ende: ueber uns Styling */
